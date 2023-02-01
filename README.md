@@ -1,0 +1,1 @@
+# aws-kali-startup-script
