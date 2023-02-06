@@ -1,7 +1,7 @@
 # Kali
 
 This script will set up kali from AMI image and enable rdp service.
-Copy the content of "kali.sh" into "userdata" textbox while launching instance.
+Copy the content of "kali.sh" into "User data" textbox while launching instance.
 
 In order to see the script output do following:
 - connect kali instance via ssh
