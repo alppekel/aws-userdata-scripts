@@ -19,3 +19,5 @@ sudo systemctl start xrdp
 sudo systemctl enable xrdp
 
 ######################################################################
+
+echo "*************** done ***************"
