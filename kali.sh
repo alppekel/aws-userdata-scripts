@@ -1,15 +1,13 @@
 #!/bin/bash
 
 sudo apt-get update -y
-sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
-  kali-linux-headless \
-  kali-desktop-xfce \
-  xorg \ 
-  xrdp
+sudo DEBIAN_FRONTEND=noninteractive apt-get install kali-linux-headless -y
 
 ###################### setting up rdp with xfce ######################
 
 # configuring xrdp to listen to port 3390
+
+sudo DEBIAN_FRONTEND=noninteractive apt-get install kali-desktop-xfce xorg xrdp -y
 
 sudo sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
 
