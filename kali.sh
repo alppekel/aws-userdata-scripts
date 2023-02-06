@@ -1,9 +1,8 @@
 #!/bin/bash
 
-sudo apt-get update -y
-
 export DEBIAN_FRONTEND=noninteractive
 
+sudo apt-get update -y
 sudo apt-get install kali-tools-top10 -y
 
 ###################### setting up rdp with xfce ######################
