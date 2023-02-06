@@ -2,6 +2,8 @@
 
 sudo apt-get update -y
 
+# Tested on Kali AWS Marketplace AMI
+
 ###################### installing kali-tools-top10 ###################
 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install kali-tools-top10 -y
