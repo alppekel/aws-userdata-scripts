@@ -16,12 +16,13 @@ After script finished, run following command as root to upgrade tools and change
 apt full upgrade -y
 passwd kali
 ```
+To connect instance via rdp:
 
-Create a ssh tunnel to connect instance via rdp as follow:
+- Create a ssh tunnel on client to connect instance via rdp as follow:
 ```
 ssh -L 3390:localhost:3390 -N -f kali@<instance-public-ip> -i <pem file> 
 ```
-On windows client, make connect ``localhost:3390`` via rdp.
+- Connect ``localhost:3390`` via rdp.
 
 ### Resources
-- 
+- <a href="https://www.kali.org/docs/cloud/aws/">Kali Official Docs</a>
