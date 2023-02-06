@@ -4,7 +4,7 @@
 ## Kali
 
 This script will update kali AMI image and enable rdp service.
-Copy the content of kali.sh into "userdata" textbox while launching instance.
+Copy the content of "kali.sh" into "userdata" textbox while launching instance.
 
 In order to see the script output do following:
 - connect kali instance via ssh
@@ -16,8 +16,8 @@ After script finished, run following command as root to upgrade tools and change
 apt full upgrade -y
 passwd kali
 ```
-To connect instance via rdp:
 
+To connect instance via rdp:
 - Create a ssh tunnel on client to connect instance via rdp as follow:
 ```
 ssh -L 3390:localhost:3390 -N kali@<instance-public-ip> -i <pem file> 
