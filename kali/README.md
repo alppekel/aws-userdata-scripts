@@ -1,7 +1,7 @@
 # Kali
 
 
-This script will set up kali from AMI image and enable rdp service.
+This script will automatically install "kali-tools-top10" and enable rdp service after first launch.
 
 Copy the content of "kali.sh" into "User data" textbox while launching instance.
 
@@ -25,5 +25,5 @@ ssh -L 3390:localhost:3390 -N kali@<instance-public-IP> -i <pem file>
 
 ### Resources
 - <a href="https://www.kali.org/docs/cloud/aws/">Kali Official Docs</a>
-- <a href="https://www.kali.org/tools/kali-meta/#kali-linux-headless">kali-linux-headless</a>
+- <a href="https://www.kali.org/tools/kali-meta/#kali-tools-top10">kali-tools-top10</a>
 
