@@ -8,7 +8,7 @@ In order to see the script output do following:
 - run ``tail -f /var/log/cloud-init-output.log`` to see script output.
 - If you see "*************** done ***************" in log file, that means script finished execution.
 
-After script finished execution, run following command as root to upgrade tools and change password of kali user.
+After script finished execution, you can run following command as root to upgrade tools and change password of kali user.
 ```
 apt full upgrade -y
 passwd kali
