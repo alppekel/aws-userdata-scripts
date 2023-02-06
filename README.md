@@ -10,7 +10,7 @@ In order to see the script output do following:
 
 After script finished execution, you can run following command as root to upgrade tools and change password of kali user.
 ```
-apt full upgrade -y
+apt-get upgrade -y
 passwd kali
 ```
 
