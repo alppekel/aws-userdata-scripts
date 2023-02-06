@@ -1,7 +1,10 @@
 #!/bin/bash
 
 sudo apt-get update -y
-sudo DEBIAN_FRONTEND=noninteractive apt install kali-tools-top10 -y
+
+###################### installing kali-tools-top10 ###################
+
+sudo DEBIAN_FRONTEND=noninteractive apt-get install kali-tools-top10 -y
 
 ###################### setting up rdp with xfce ######################
 
