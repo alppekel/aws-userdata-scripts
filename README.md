@@ -1,7 +1,4 @@
-# aws-userdata-scripts
-
-
-## Kali
+# Kali
 
 This script will update kali AMI image and enable rdp service.
 Copy the content of "kali.sh" into "userdata" textbox while launching instance.
