@@ -23,5 +23,5 @@ ssh -L 3390:localhost:3390 -N kali@<instance-public-ip> -i <pem file>
 
 ### Resources
 - <a href="https://www.kali.org/docs/cloud/aws/">Kali Official Docs</a>
-- <a href="https://www.kali.org/tools/kali-meta/#kali-tools-top10">kali-tools-top10</a>
+- <a href="https://www.kali.org/tools/kali-meta/#kali-linux-headless">kali-linux-headless</a>
 
