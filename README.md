@@ -2,5 +2,5 @@
 
 ## Description
 
-This repo contains "User data shell scripts" used to set up AWS AMIs.
+This repo contains "User data shell scripts" used to perform automated configuration tasks after the AMAZON EC2 instance starts.
 
