@@ -1,4 +1,4 @@
-# Kali
+# Kali AWS Marketplace AMI
 
 
 This script will automatically install "kali-tools-top10" and enable rdp service after first launch.
