@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update -y
-sudo DEBIAN_FRONTEND=noninteractive apt-get install kali-linux-headless -y
+sudo DEBIAN_FRONTEND=noninteractive apt install kali-tools-top10 -y
 
 ###################### setting up rdp with xfce ######################
 
