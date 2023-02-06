@@ -19,7 +19,7 @@ passwd kali
 To connect instance via rdp:
 - Create a ssh tunnel on client to connect instance via rdp as follow:
 ```
-ssh -L 3390:localhost:3390 -N kali@<instance-public-ip> -i <pem file> 
+ssh -L 3390:localhost:3390 -N kali@<instance-public-IP> -i <pem file> 
 ```
 - Connect ``localhost:3390`` via rdp.
 
