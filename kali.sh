@@ -4,7 +4,6 @@ sudo apt update -y
 
 sudo apt install kali-linux-headless -y
 
-
 ###################### setting up rdp with xfce ######################
 
 sudo apt install kali-desktop-xfce xorg xrdp -y
