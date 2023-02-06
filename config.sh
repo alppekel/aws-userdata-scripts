@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo apt update -y
-sudo apt full-upgrade -y
 
 sudo apt install kali-tools-top10 -y
 
